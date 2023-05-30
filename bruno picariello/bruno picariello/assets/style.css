@@ -1,14 +1,46 @@
 #banner{
-    width: 80vw;
+    width: 100vw;
     height: 45vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
    
 }
 #fotocurriculum{
     width: 15%;
-    display:inline-block;
-    margin-top: -150%;
-    border-color: blue;
+    
+    display: flex;
+    justify-content: start;
+
+    margin-top: -25%;
+    flex-wrap: wrap;
+
+    border-color: greenyellow;
     border-style: solid;
     border-width: 10px;
     border-radius: 10%;
 }
+header>ul{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    
+}
+header>ul>li{
+    display: inline-block;
+    margin-left: 5%;
+    
+    margin-top: -6%;
+}
+header>ul>li>a{
+    color: black;
+    background-color: greenyellow;
+    font-size:large;
+
+    
+    
+}
+
+
