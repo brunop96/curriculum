@@ -1,6 +1,6 @@
-#banner{
+#Banner{
     width: 100vw;
-    height: 45vh;
+    height: 46vh;
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -8,8 +8,8 @@
 
    
 }
-#fotocurriculum{
-    width: 15%;
+#foto{
+    width: 19%;
     
     display: flex;
     justify-content: start;
@@ -21,6 +21,7 @@
     border-style: solid;
     border-width: 10px;
     border-radius: 10%;
+    position: relative;
 }
 header>ul{
     display: flex;
@@ -32,7 +33,7 @@ header>ul>li{
     display: inline-block;
     margin-left: 5%;
     
-    margin-top: -6%;
+    margin-top: -8%;
 }
 header>ul>li>a{
     color: black;
@@ -42,5 +43,7 @@ header>ul>li>a{
     
     
 }
-
+ul>li{
+    font-size: x-large;
+}
 
