@@ -66,5 +66,18 @@ article>section{
 footer{
     color: black;
     height: 10px;
-    font-size: medium;
+    font-size: xx-large;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 40%;
+
+}
+footer>img {
+    width: 10%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
