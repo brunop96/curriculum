@@ -1,4 +1,4 @@
-#Banner{
+#banner{
     width: 100vw;
     height: 46vh;
     display:flex;
@@ -8,8 +8,8 @@
 
    
 }
-#foto{
-    width: 19%;
+#fotocurriculum{
+    width: 14%;
     
     display: flex;
     justify-content: start;
@@ -17,7 +17,7 @@
     margin-top: -25%;
     flex-wrap: wrap;
 
-    border-color: greenyellow;
+    border-color: rgb(47, 172, 255);
     border-style: solid;
     border-width: 10px;
     border-radius: 10%;
@@ -33,11 +33,11 @@ header>ul>li{
     display: inline-block;
     margin-left: 5%;
     
-    margin-top: -8%;
+    margin-top: -6%;
 }
 header>ul>li>a{
-    color: black;
-    background-color: greenyellow;
+    color: rgb(245, 244, 244);
+    
     font-size:large;
 
     
@@ -45,5 +45,26 @@ header>ul>li>a{
 }
 ul>li{
     font-size: x-large;
+    list-style: none;
 }
+#Experiencia{
+    background-color: rgb(63, 121, 176);
+    
 
+}
+#Estudios{
+    background-color: rgb(50, 182, 205);
+}
+body{
+    background-color: skyblue;
+}
+article>section{
+    text-align: center;
+    margin: -1%;
+    
+}
+footer{
+    color: black;
+    height: 10px;
+    font-size: medium;
+}
