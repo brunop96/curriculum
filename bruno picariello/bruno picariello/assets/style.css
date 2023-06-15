@@ -64,20 +64,60 @@ article>section{
     
 }
 footer{
-    color: black;
-    height: 10px;
-    font-size: xx-large;
+    background-color: blue;
     display:flex;
-    flex-direction: row;
+    justify-content:end;
     align-items: center;
-    flex-wrap: wrap;
-    margin-left: 40%;
+    flex-wrap: wrap;  
+}
+.ft-nombre{
 
 }
-footer>img {
-    width: 10%;
+.ft-tel{
+ 
+}
+div{
+    width:50%;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content:center;
+    align-items: end;
+    flex-wrap: wrap;  
+  
+}
+footer>div>a>img {
+    width: 100px;
+    display:inline-block;
+}
+/*footer>p{
+    font-size: large;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+    margin-left:50%;
+}
+footer>div>a>img {
+    width: 30%;
+   display:flex;
+    
+    justify-content: end;
+    flex-wrap: wrap;
+    position:relative;
+    margin-left: 30%;
+
+}
+footer>div{
+    display:flex;
+    
     align-items: center;
     flex-wrap: wrap;
+
 }
+
+
+footer>div>p{
+    color: white;
+}*/
+
